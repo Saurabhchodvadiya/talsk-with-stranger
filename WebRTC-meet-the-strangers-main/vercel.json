@@ -2,7 +2,7 @@
     "version": 2,
     "builds": [
       {
-        "src": ".WebRTC-meet-the-strangers-main/app.js",
+        "src": "WebRTC-meet-the-strangers-main/app.js",
         "use": "@vercel/node"
       }
     ],
