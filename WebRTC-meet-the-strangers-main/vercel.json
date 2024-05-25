@@ -9,7 +9,14 @@
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "/"
+        "dest": "WebRTC-meet-the-strangers-main/app.js"
       }
-    ]
+    ],
+    "env": {
+      "NODE_ENV": "production"
+    },
+    "engines": {
+      "node": ">=14"
+    }
   }
+  
